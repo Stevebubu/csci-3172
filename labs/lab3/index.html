@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lab 3 Steve</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Valorant Skin Shop</h1>
+    
+    
+    <input type="text" id="searchBox" placeholder="Search items...">
+    <button onclick="searchItems()">Search</button>
+    <button onclick="calculateTotalValue()">Calculate Total Value</button>
+    
+    <h2>Add Item</h2>
+    <input type="text" id="skinName" placeholder="Skin Name">
+    <input type="text" id="gunType" placeholder="Gun Type">
+    <input type="number" id="skinPrice" placeholder="Price">
+    <input type="number" id="skinQuantity" placeholder="Quantity">
+    <input type="text" id="skinDescription" placeholder="Description">
+    <button onclick="addItem()">Add Item</button>
+    
+    <h2>Current Inventory</h2>
+    <div id="inventory"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
